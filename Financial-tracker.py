@@ -87,7 +87,7 @@ def financial_summary():
     
     conn.close()
     
-    print("\n💰 Financial Summary 💰")
+    print("\n Financial Summary")
     print(f"Total Income: ${total_income}")
     print(f"Total Expenses: ${total_expenses}")
     print(f"Net Savings: ${savings}")
@@ -138,7 +138,7 @@ def export_to_csv():
     conn.close()
     
     df.to_csv("finance_data.csv", index=False)
-    print("📁 Data exported to finance_data.csv")
+    print("Data exported to finance_data.csv")
 
 # Example usage
 export_to_csv()
